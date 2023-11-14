@@ -8,6 +8,6 @@ inputs: # input parameters are stored as environment variables
   outputs:
     time: # id of output
       description: 'The time we greeted you'
-    runs:
-      using: 'node 12'
-      main: 'index.js'
+  runs:
+    using: 'node 12'
+    main: 'index.js'
